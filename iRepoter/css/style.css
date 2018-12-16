@@ -20,26 +20,51 @@
  	text-align: center;
  }
 
- #navigate{
- 	background-color: blue;
+ #navbar{
+ 	background-color: green;
  	color: purple;
  }
 
- #navigate ul{
+ #navbar ul{
  	padding: 0;
  	list-style: none;
  }
 
- #navigate li{
+ #navbar li{
  	display: inline;
  }
 
- #navigate a{
- 	color: red
- 	text-decoration: none;
+ #navbar a{
+ 	color: red;/*
+ 	text-decoration: none;*/
  	font-size: 18px;
  	padding-right: 15px; 
  }
+
+ .button {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: yellow;
+}
+
+#sign-in{
+float: left;
+width: 30%;
+margin-bottom: 50px;
+}
+
+#sign-up{
+	float: right;
+	width: 30%;
+}
 
  #showcase{
  	background-image:url("../images/showcase.jpeg");
