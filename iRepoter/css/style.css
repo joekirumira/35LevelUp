@@ -42,7 +42,7 @@
  }
 
  .button {
-  background-color: green;
+  background-color: black;
   border: none;
   color: white;
   padding: 15px;
@@ -52,7 +52,7 @@
 }
 
 .button:hover {
-  background-color: yellow;
+  background-color: purple;
 }
 
 #sign-in{
@@ -62,8 +62,13 @@ margin-bottom: 50px;
 }
 
 #sign-up{
-	float: right;
+	float: left;
 	width: 30%;
+}
+
+.forms{
+	color: red;
+	float: centre;
 }
 
  #showcase{
@@ -85,16 +90,17 @@ margin-bottom: 50px;
  	float: left;
  	width: 70%;
  	padding: 0 30px;
- 	box-sizing:border-box;
+ 	background-color: grey;
+ 	text-decoration: none;
+ 	color: blue;
  }
 
  #sidebar{
  	float: right;
  	width: 30%;
- 	background: dark-grey;
- 	color: white;
+ 	background-color: orange;
+ 	color: black;
  	padding: 10px;
- 	box-sizing: border-box;
  }
 
 #footer{
